@@ -10,7 +10,7 @@ export default function Home() {
 
   async function testSecureAPI() {
     try {
-      const res = await fetch("http://localhost:3000/api/secure");
+      const res = await fetch("http://localhost:3000/vapiai-test");
 
       const json = await res.json();
       setData(json);
